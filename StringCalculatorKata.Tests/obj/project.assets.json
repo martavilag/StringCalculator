@@ -6062,11 +6062,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator.Tests\\StringCalculator.Tests.csproj",
-      "projectName": "StringCalculator.Tests",
-      "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator.Tests\\StringCalculator.Tests.csproj",
+      "projectUniqueName": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata.Tests\\StringCalculatorKata.Tests.csproj",
+      "projectName": "StringCalculatorKata.Tests",
+      "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata.Tests\\StringCalculatorKata.Tests.csproj",
       "packagesPath": "D:\\Users\\mvila\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator.Tests\\obj\\",
+      "outputPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
