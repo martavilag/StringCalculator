@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\StringCalculator.csproj": {
-                "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\StringCalculator.csproj"
+              "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\StringCalculatorKata.csproj": {
+                "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\StringCalculatorKata.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
@@ -87,14 +91,14 @@
         }
       }
     },
-    "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\StringCalculator.csproj": {
+    "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\StringCalculatorKata.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
-        "projectName": "StringCalculator",
-        "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\StringCalculator.csproj",
+        "projectUniqueName": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\StringCalculatorKata.csproj",
+        "projectName": "StringCalculatorKata",
+        "projectPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\StringCalculatorKata.csproj",
         "packagesPath": "D:\\Users\\mvila\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculator\\obj\\",
+        "outputPath": "D:\\Users\\mvila\\source\\repos\\StringCalculator\\StringCalculatorKata\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

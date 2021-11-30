@@ -1,0 +1,12 @@
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\bin\Debug\net5.0\StringCalculatorKata.deps.json
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\bin\Debug\net5.0\StringCalculatorKata.dll
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\bin\Debug\net5.0\ref\StringCalculatorKata.dll
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\bin\Debug\net5.0\StringCalculatorKata.pdb
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.csproj.AssemblyReference.cache
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.AssemblyInfoInputs.cache
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.AssemblyInfo.cs
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.csproj.CoreCompileInputs.cache
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.dll
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\ref\StringCalculatorKata.dll
+D:\Users\mvila\source\repos\StringCalculator\StringCalculatorKata\obj\Debug\net5.0\StringCalculatorKata.pdb
