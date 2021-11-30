@@ -11,10 +11,14 @@ namespace StringCalculatorKata
             if (!numbers.Contains(","))
                 return Int32.Parse(numbers);
 
-            var firstNumber = Int32.Parse(numbers.Substring(0,1));
-            var secondNumber = Int32.Parse(numbers.Substring(2));
+            int commaIndex = numbers.IndexOf(",");
+
+            int firstNumber = Int32.Parse(numbers.Substring(0, commaIndex));
+            int secondNumber = Int32.Parse(numbers.Substring(commaIndex+1));
+
+            int result = firstNumber + secondNumber;
             
-            return firstNumber + secondNumber;
+            return result;
         }
     }
 }
