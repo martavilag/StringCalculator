@@ -32,5 +32,15 @@ namespace StringCalculatorKata.Tests
             result.Should().Be(expected);
         }
         
+        [Theory]
+        [InlineData("1,1", 2)]
+        [InlineData("1,2", 3)]
+        [InlineData("1,3", 4)]
+        public void ReturnTheSumOfTheTwoNumbersOnTheString(string number, int expected)
+        {
+            var result = StringCalculator.Sum(number);
+            result.Should().Be(expected);
+        }
+        
     }
 }
