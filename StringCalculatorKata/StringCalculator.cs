@@ -2,9 +2,9 @@
 {
     public class StringCalculator
     {
-        public static object Sum(string empty)
+        public static int Sum(string numbers)
         {
-            throw new System.NotImplementedException();
+            return 0;
         }
     }
 }
