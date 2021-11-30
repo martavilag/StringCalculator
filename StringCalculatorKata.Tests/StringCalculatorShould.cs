@@ -22,5 +22,15 @@ namespace StringCalculatorKata.Tests
             result.Should().Be(expected);
         }
         
+        [Theory]
+        [InlineData("1,0",1)]
+        [InlineData("2,0",2)]
+        [InlineData("3,0",3)]
+        public void ReturnANumberWhenStringIsZeroAndTheSameNumber(string number, int expected)
+        {
+            var result = StringCalculator.Sum(number);
+            result.Should().Be(expected);
+        }
+        
     }
 }
