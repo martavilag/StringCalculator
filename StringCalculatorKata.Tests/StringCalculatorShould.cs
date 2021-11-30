@@ -42,5 +42,15 @@ namespace StringCalculatorKata.Tests
             result.Should().Be(expected);
         }
         
+        [Theory]
+        [InlineData("10,1", 11)]
+        [InlineData("10,2", 12)]
+        [InlineData("10,3", 13)]
+        public void ReturnTheSumOfTenAndTheOtherNumberAfterTheComma(string number, int expected)
+        {
+            var result = StringCalculator.Sum(number);
+            result.Should().Be(expected);
+        }
+        
     }
 }
