@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace StringCalculatorKata
 {
@@ -12,14 +13,8 @@ namespace StringCalculatorKata
                 return Int32.Parse(numbers);
 
             string[] numberList = numbers.Split(',');
-            int result = 0;
+            return numberList.Sum(n => Int32.Parse(n));
             
-            foreach (var number in numberList)
-            {
-                result += Int32.Parse(number);
-            }
-            
-            return result;
         }
     }
 }
