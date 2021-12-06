@@ -61,6 +61,14 @@ namespace StringCalculatorKata.Tests
             var result = StringCalculator.Sum(number);
             result.Should().Be(expected);
         }
+
+        [Theory]
+        [InlineData("100,10,1", 111)]
+        public void ReturnTheSumOfNumbersSeparatedByMultipleCommas(string number, int expected)
+        {
+            var result = StringCalculator.Sum(number);
+            result.Should().Be(expected);
+        }
         
     }
 }
