@@ -74,6 +74,8 @@ namespace StringCalculatorKata.Tests
         
         [Theory]
         [InlineData("1\n2,3", 6)]
+        [InlineData("100\n20,31", 151)]
+        [InlineData("4,2\n3", 9)]
         public void ReturnTheSumOfNumbersSeparatedByNewLineEscapeSeparatorAndComma(string number, int expected)
         {
             var result = StringCalculator.Add(number);
