@@ -5,7 +5,7 @@ namespace StringCalculatorKata
 {
     public class StringCalculator
     {
-        public static int Sum(string numbers)
+        public static int Add(string numbers)
         {
             if (string.IsNullOrEmpty(numbers))
                 return 0;
