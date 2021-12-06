@@ -81,6 +81,14 @@ namespace StringCalculatorKata.Tests
             var result = StringCalculator.Add(number);
             result.Should().Be(expected);
         }
+
+        [Theory]
+        [InlineData("//;\n1;2", 3)]
+        public void ReturnTheSumOfNumbersSplitByAnySeparators(string number, int expected)
+        {
+            var result = StringCalculator.Add(number);
+            result.Should().Be(expected);
+        }
         
     }
 }
