@@ -72,5 +72,13 @@ namespace StringCalculatorKata.Tests
             result.Should().Be(expected);
         }
         
+        [Theory]
+        [InlineData("1\n2,3", 6)]
+        public void ReturnTheSumOfNumbersSeparatedByNewLineEscapeSeparatorAndComma(string number, int expected)
+        {
+            var result = StringCalculator.Add(number);
+            result.Should().Be(expected);
+        }
+        
     }
 }
