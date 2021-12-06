@@ -64,6 +64,8 @@ namespace StringCalculatorKata.Tests
 
         [Theory]
         [InlineData("100,10,1", 111)]
+        [InlineData("230,11,2", 243)]
+        [InlineData("100,30,1,1,1", 133)]
         public void ReturnTheSumOfNumbersSeparatedByMultipleCommas(string number, int expected)
         {
             var result = StringCalculator.Add(number);
