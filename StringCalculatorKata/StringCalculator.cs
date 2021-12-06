@@ -12,7 +12,7 @@ namespace StringCalculatorKata
             if (!numbers.Contains(","))
                 return Int32.Parse(numbers);
 
-            string[] numberList = numbers.Split(',');
+            string[] numberList = numbers.Split(new char[]{'\n', ','});
             return numberList.Sum(n => Int32.Parse(n));
             
         }
